@@ -1,0 +1,2 @@
+rm add_note_history.zip
+zip -r add_note_history.zip config.* *.ui *.sh *.py *.css *.js web  LICENSE *.md zipping --exclude \*~ \*zip ankiweb
