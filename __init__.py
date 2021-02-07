@@ -9,6 +9,7 @@ def history(line, note):
     model = note.model()
     sort_idx = model["sortf"]
     sort_field = fields.pop(sort_idx)
+    fields = [field_content for field_content in fields if field_content]
     fields = [sort_field] + fields
     txt = htmlToTextLine(", ".join(fields))
     nb_char = getUserOption("Number of character")
