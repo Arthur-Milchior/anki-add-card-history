@@ -25,5 +25,5 @@ Key         |Value
 Copyright   | Arthur Milchior <arthur@milchior.fr>
 Based on    | Anki code by Damien Elmes <anki@ichi2.net>
 License     | GNU GPL, version 3 or later; http://www.gnu.org/licenses/gpl.html
-Source in   | https://github.com/Arthur-Milchior/anki-
+Source in   | https://github.com/Arthur-Milchior/anki-add-card-history
 Addon number| [199311335](https://ankiweb.net/shared/info/199311335)
