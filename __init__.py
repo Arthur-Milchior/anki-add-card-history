@@ -6,7 +6,7 @@ from .config import getUserOption
 def history(line, note):
     fields = note.fields
     col = note.col
-    model = note.model()
+    model = note.note_type()
     sort_idx = model["sortf"]
     sort_field = fields.pop(sort_idx)
     fields = [field_content for field_content in fields if field_content]
